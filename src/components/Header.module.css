@@ -1,0 +1,28 @@
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60px;
+    width: auto;
+    background-color: rgb(216, 115, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 1.3rem;
+    color: whitesmoke
+}
+
+.nav_btn {
+    font-size: 1.3rem;
+    background: rgb(216, 115, 0);
+    border: none;
+    color: whitesmoke;
+    min-width: 125px;
+}
+
+.nav_btn:hover {
+    color: rgb(255, 196, 0);
+}
