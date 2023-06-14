@@ -30,14 +30,14 @@
   width: 100%;
   border-radius: 0 30px 30px 0;
   font-size: 20px;
-}
-
-input {
   border: none;
   background-color: transparent;
   color: black;
 }
 
-input:focus {
+/* input {
+} */
+
+.search_bar input:focus {
   outline: none;
 }

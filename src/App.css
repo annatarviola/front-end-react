@@ -91,8 +91,8 @@ video {
 /* --------- Begin your CSS Below here --------- */
 
 :root {
-  --primary-color: rgb(216, 115, 0);
-  --secondary-color: rgb(95, 144, 144);
+  --primary-color: #da7533;
+  --secondary-color: #578a8b;
 }
 
 html {
@@ -130,7 +130,7 @@ button {
 }
 
 .orange-btn:hover {
-    color: rgb(255, 196, 0);
+    background: rgb(184, 100, 5);
 }
 
 .blue-btn {

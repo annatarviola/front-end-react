@@ -5,13 +5,18 @@ header {
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
     padding: 0px 50px;
     align-items: center;
     box-sizing: border-box;
 }
 
 header h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: whitesmoke
+}
+
+header button {
+    font-size: 1.3rem;
 }
 

@@ -31,7 +31,6 @@ const DetailScreen = () => {
           rgba(0, 0, 0, 0.8)),
           url(${recipe.image_url})`,
           backgroundSize: "cover",
-          backgroundPosition: "0, 10%",
         }}
       >
         <h1>{recipe.recipe_name}</h1>
