@@ -1,27 +1,152 @@
 /* --------- This is CSS Reset Code --------- */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* --------- Begin your CSS Below here --------- */
 
-h1, h2, h3, h4, h5, h6, p, input, button, span, div, body, textarea {
-	font-family: 'Inter', sans-serif;
-  }
+:root {
+  --primary-color: rgb(216, 115, 0);
+  --secondary-color: rgb(95, 144, 144);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+button,
+span,
+div,
+body,
+textarea {
+  font-family: "Inter", sans-serif;
+}
+
+button {
+	font-size: 1.2rem;
+    border: none;
+	border-radius: 2px;
+    min-width: 125px;
+	padding: 10px 15px;
+	margin: 15px;
+	color: whitesmoke;
+}
+
+.orange-btn {
+	background: var(--primary-color);
+}
+
+.orange-btn:hover {
+    color: rgb(255, 196, 0);
+}
+
+.blue-btn {
+	background: var(--secondary-color)
+}
+
+.blue-btn:hover {
+	background:  rgb(68, 110, 110)
+}
+
+.App {
+  position: relative;
+  top: 0;
+  min-height: 100vh;
+}
+
+main {
+  padding-bottom: 200px;
+}

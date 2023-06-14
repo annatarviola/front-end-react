@@ -6,11 +6,10 @@ footer {
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    bottom: 0;
+    bottom: -100;
     margin-top: 100px;
     padding: 70px;
     background-color: #3f3f3f;
-
 }
 
 .socials {
@@ -28,7 +27,7 @@ footer {
 }
 
 .circle {
-    background-color: rgb(95, 144, 144);
+    background-color: var(--secondary-color);
     height: 50px;
     width: 50px;
     border-radius: 50%;

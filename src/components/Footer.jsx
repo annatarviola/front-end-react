@@ -9,16 +9,16 @@ const Footer = () => {
         <h5>Hit us up on our socials!</h5>
         <div className={styles.icons}>
           <a href="https://www.devmountain.com" target="_blank" className={styles.circle}>
-            <ImFacebook size="1.5em" color="#3f3f3f" />
+            <ImFacebook size="1.2em" color="#3f3f3f" />
           </a>
           <a href="https://www.devmountain.com" target="_blank" className={styles.circle}>
-            <ImInstagram size="1.5em" color="#3f3f3f" />
+            <ImInstagram size="1.2em" color="#3f3f3f" />
           </a>
           <a href="https://www.devmountain.com" target="_blank" className={styles.circle}>
-            <ImTwitter size="1.5em" color="#3f3f3f" />
+            <ImTwitter size="1.2em" color="#3f3f3f" />
           </a>
           <a href="https://www.devmountain.com" target="_blank" className={styles.circle}>
-            <ImGithub size="1.5em" color="#3f3f3f" />
+            <ImGithub size="1.2em" color="#3f3f3f" />
           </a>
         </div>
       </div>
@@ -29,13 +29,13 @@ const Footer = () => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <circle cx="256" cy="256" r="248" stroke="#25AAE1" stroke-width="16" />
+        <circle cx="256" cy="256" r="248" stroke="#25AAE1" strokeWidth="16" />
         <path
           d="M255 222L203 132.5L83.9282 338H233L331 168L427.675 338.571L317.5 338.5"
           stroke="#25AAE1"
-          stroke-width="16"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="16"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
     </footer>
